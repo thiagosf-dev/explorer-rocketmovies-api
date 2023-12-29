@@ -1,0 +1,7 @@
+npx knex init
+
+npx knex migrate:make createNotes
+
+npx knex migrate:latest
+
+npx pm2 init
